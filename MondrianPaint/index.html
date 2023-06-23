@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>※ Mondrian Painting Project</title>
+    <style>
+    /*Gap Color: #000* 
+        white: #F0F1EC
+        red: #E72F24
+        black: #232629
+        blue: #004592
+        yellow: #F9O01E    
+    */
+    body {background-color: moccasin;}
+
+/*Class Containers*/
+    .big-container {
+        /*border: 5px dashed black;*/
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .container {
+        /*border: 4px dashed black;*/
+        background-color: black;
+        border-bottom: 9px solid black;
+        display: flex; 
+        gap: 9px;
+        width: 748px;
+   }
+    
+    .container2 {/* border: 2px solid purple;*/
+        background-color: black;
+        display: grid;
+        grid-template-rows: 296px 20px;
+        grid-template-columns: 320px 360px 50px;
+        /*grid-auto-columns: what do I enter here?*/
+        gap: 9px;
+        width: 748px;
+    }
+
+/*Class Items*/
+    .box {
+        background-color: #F0F1EC;
+    }
+    .red {
+        background-color: darkred;
+        width: 320px;
+        height: 414px;    
+    }
+
+    .two {
+         
+        width: 419px;
+        height: 414px;
+        }
+
+    .five { 
+        background-color: black;
+        display: flex; 
+        flex-direction: column;
+        justify-content: flex-end;
+        height: 325px;
+        gap: 20px;
+    }
+
+    .navy {
+        background-color: navy;
+        height: 130px;
+    }
+
+    .five5 {
+        height: 175px; 
+    }
+    
+    .seven {
+        /*border: 2px solid gold;*/
+        display: flex;
+        background-color: black;
+        gap: 9px;
+        width: 198px + 153px;
+    }
+
+    .yellow {
+        background-color: gold;
+        width: 198px;
+    }
+    .black {
+        background-color: #232629;
+        width: 153px;    
+    }
+    
+    </style>
+</head>
+<body>
+  <div class = "big-container">
+    <div class = "container">
+      <div class = "red"></div>
+      <div class = "box two"></div>
+    </div>
+    <div class = "container2">
+      <div class = "box three"></div>
+      <div class = "box four"></div>
+      <div class = "box five">
+        <div class = "navy"></div>
+        <div class = "box five5"></div>
+      </div>
+      <div class = "box six"></div>  
+      <div class = "seven">
+        <div class = "yellow"></div>
+        <div class = "black"></div>
+      </div>
+    </div>
+  </div>  
+</body>
+</html>

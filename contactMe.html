@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>※ Contact Form</title>
+<style>
+  body {background-color: tan;}
+  h1 {border: 3px double black;
+      text-decoration: 2px line-through black;
+      width: 16.5%;
+      text-align: center;
+      color: maroon;
+  }
+  hr { border: 5px double black; 
+       width: 85%;
+  }
+  label {font-family: harrington, monospace;}
+  
+  p {font-family: harrington, monospace, sans-serif;}
+</style>
+</head>
+<body>
+  <h1>Contact details:</h1>
+  <p><strong>My address: </strong> 1111 galaxy way</p> 
+  <p><strong>My phone number:</strong> 1.800.eye.code</p>
+  <p><strong>My email:</strong> theNo1Website@email.com </p><br>
+  <hr><br><br>
+  <form action="mailto:youremail@gmail.com" method = "post" enctype = "text/plain">
+    <label for="yourName">Your name:</label><br>
+    <input type="text" name ="yourName"><br><br>
+    <label for="yourEmail">Your Email:</label><br>
+    <input type="email" name = "yourEmail"><br><br>
+    <label for="yourMessage">Your Message:</label><br>
+    <textarea name="name" cols="30" rows="10"></textarea><br>
+    <input type="submit" name ="yourMessage">
+  </form>  
+</body>
+</html>

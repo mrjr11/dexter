@@ -1,0 +1,28 @@
+html {background-color: black;
+      color: white;
+      text-align: center;
+}
+
+/*Online style*/
+h1 {font-family: 'Libre Baskerville', times, serif;
+    text-transform:uppercase;    
+}
+
+img {border: 5px solid white;}
+
+p { /*background-image: url(../images/Dexter1.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 40%;
+    font-size: 40px; 
+    margin-left: 30%;*/
+    font-family: 'Libre Baskerville', times, serif;
+    margin: 0px;
+    text-transform: uppercase;
+    
+}
+
+div {margin-top: 5%; }
+
+#orang {height: 600px;}

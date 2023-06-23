@@ -1,0 +1,132 @@
+/*All HTML should be valid and follow proper semantic markup.
+
+    All CSS should be valid and follow best practices for naming conventions and organization.
+
+    The website should be responsive and work on different screen sizes and devices.
+
+    All images used in the website should have appropriate alt text to be accessible.*/
+
+
+@media (max-width: 600px){
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 15px;
+}
+
+}
+
+@media (max-width: 2000px) {
+  .container {
+  display: flex;
+  gap: 10px;
+  margin-left: 15px;
+}
+
+}
+
+body {background-color: peachpuff;}
+
+h1 {text-align: center;
+    font-family: harrington, times, sans-serif;
+    text-decoration: underline;
+}
+
+h2, h3 {font-family: harrington, times, sans-serif;
+    margin-left: 5px;
+}
+
+nav,p,table {margin-left: 10px;}
+
+main {margin-left: 15px;}
+
+figcaption {
+  background-image: radial-gradient(peachpuff, peachpuff, salmon);
+  border-radius: 15%;
+}
+
+#Dexterh1 {
+  font-size: 50px;
+  text-decoration: 3px underline;
+  text-align: left;
+}
+
+
+
+#resume, #about-me, #projects, #contacts, .res-sec {
+    background-image: radial-gradient( salmon,peachpuff); 
+    width: 50%;
+    border-radius: 30px;    
+}
+
+#footer {background-image: radial-gradient( salmon,peachpuff);
+    margin-left: 10px;
+    border-radius: 30px;
+    }
+
+#site-map {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1px;
+
+}
+
+#site-map>a{
+text-decoration:none;
+border-radius: 25%;
+}
+
+
+#site-map>a:hover {
+    background-image: radial-gradient( salmon,peachpuff);
+    text-decoration: underline dotted lightslategray;
+}
+
+#hero {background-image: radial-gradient(salmon, peachpuff);
+  text-align: center;
+  border-radius: 20%;
+  width: 100%;
+  height: 150px;
+  margin-top: 10%;
+}
+
+.navbar {
+  background-image: radial-gradient(salmon,peachpuff);
+  width: 100%;
+}
+
+.logo1 {border-radius: 30%;
+        }
+
+
+
+
+.res-container {
+  display: flex; 
+  gap: 10px;
+  margin-left: -25px;
+  
+}
+
+.em {color: transparent;}
+
+.Dexterh2 {
+  background-image: radial-gradient(peachpuff, peachpuff, salmon);
+  width: 25%;
+  text-align: center;
+  border-radius: 45%;
+}
+
+.portfolio {
+  border: 8px inset beige;
+  width: 450px;  
+}
+
+.tou {
+  background-image: radial-gradient(peachpuff,peachpuff,salmon);
+  border-radius: 20px;
+}
+/*.navbar {background-image:linear-gradient(salmon, peachpuff);}*/

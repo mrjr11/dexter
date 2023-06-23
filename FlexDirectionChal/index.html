@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>⁜ Flex Direction</title>
+    <style>
+      .container {
+        color: white;
+        border: 5px solid gold; 
+        text-align: center;
+        display: flex; /*could use display: inline-flex instead and omit width property */
+        flex-direction: column;
+        width: 70px;
+      }
+
+      .red{background-color: #eb4d4b;}
+      .orange {background-color: #f0932b;}
+      .yellow {background-color: #f6e58d;}
+      .green {background-color: #6ab04c;}
+      .blue {background-color: #4834d4;}
+      .indigo {background-color: #30336b;}
+      .purple {background-color: #be2edd;}
+
+      div > div {
+        flex-basis: 150px;
+        
+      }
+      /*could also use universal selector: div > * to select all the elements  */
+
+
+/*Goal: layout the horizontal flex box vertically w/o changing the html
+note: the 'height' = 100px;
+*/
+    </style>
+</head>
+<body>
+  <div class = "container">
+    <div class = "red">RED</div>  
+    <div class = "orange">ORANGE</div>
+    <div class = "yellow">YELLOW</div>
+    <div class = "green">GREEN</div>
+    <div class = "blue">BLUE</div>
+    <div class = "indigo">INDIGO</div>
+    <div class = "purple">VIOLET</div>
+  </div>
+</body>
+</html>
