@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>※ Web Design Agency Project</title>
+    <style>
+        /*layout a website in anyway using block, float, and responsiveness*/
+
+      /*tablet, desktop, desktop*/
+      @media (min-width: 600px)and (max-width: 1800px){
+         body {background-color: peachpuff;}
+
+         h1 {
+        border: 8px double blanchedalmond;
+        border-radius: 40%;
+
+        font-family: harrington, monospace, arial;
+        margin-right: 250px;
+        text-align: center;
+        font-size: 45px; 
+        position: relative;
+        bottom: 320px;
+        left: 490px;
+        width: 50%;
+        padding: 0;
+        color: black;
+        
+        
+        }
+
+      .logo {background-image: url(../images/MotoMeme2.jpeg);
+        border: 10px double blanchedalmond;
+        border-radius: 50%;
+        width: 400px;
+        height: 400px;
+        display: inline;
+        margin-bottom: -40px;
+        }
+
+        .title-image { border: 8px double blanchedalmond;
+        background-image: url(../images/Dexter2.jpg);
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        float: left;
+        display: block; 
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        margin-left: 20px; 
+        margin-right: 20px;
+        }
+
+        .left-card > p {
+          display: inline; 
+          top: 10px;
+        }  
+
+        .left-card > h2 {
+
+          color: black;
+          
+        }
+        figcaption {
+        position: absolute;
+        z-index: 2;
+        top: 440px;
+        left: 165px;
+        font-size: 20px;
+        color: black;
+        font-weight: bold;
+        font-family: monospace;
+        text-align: center;
+      }
+
+      }
+
+
+  /**************************************Phone Display**********************************/
+  
+      @media (min-width: 300px)and (max-width: 599px){
+        body {background-color: peachpuff;}
+
+        .logo {background-image: url(../images/Dexter2.jpg);
+          position: relative;
+          left: 10%;
+          border: 8px double blanchedalmond;
+          border-radius: 50%;
+          width: 300px;
+          height: 300px; 
+          
+        }
+
+        h1 {
+            border: 6px double blanchedalmond;
+            font-family: harrington, monospace, arial;
+            display: block;
+            width: 100%;
+            text-align: center;
+            margin-top: 50px;
+          
+        }
+        
+        .title-image {background-image: url(../images/Dexter2.jpg);
+        border: 8px double blanchedalmond;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        float: left;
+        display: block; 
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        margin: 20px;
+        }
+
+        figcaption {
+        position: absolute;
+        z-index: 2;
+        top: 330px;
+        left: 165px;
+        font-size: 15px;
+        color: black;
+        font-weight: bold;
+        font-family: monospace;
+        text-align: center;
+      }
+
+        .left-card > p {
+          margin: 20px;  
+          display: inline-block;
+        
+        }
+
+        .left-card > h2 {
+          position: relative;
+          top: 240px;
+          right: 230px;
+        
+        }
+      }
+
+
+/*END MEDIA QUERIES*/
+
+      
+      footer {
+        clear:both;
+        text-align: right;
+        font-family: "script mt", "segoe script", cursive; 
+        font-size: 20px;
+      }
+      em {
+        font-size: 15px;
+        position: absolute;
+        top: 20px; 
+        right: -7px;
+        /*background-image:linear-gradient(3, 4, 250, 23);*/
+      }
+
+      span {color: rgb(214, 174, 72);}
+
+      
+    </style>
+</head>
+<!--May not want to use this unsecure link but it has the url for the dev.com project site-->
+<!--http://127.0.0.1:3000/8.4 Web Design Agency Project/index.html-->
+<body>
+    <div class = "main">
+      <figure><img class = "logo" src="../images/Dexter2.jpg" alt=" trend setter bunny">
+        <figcaption> ₪ MR. <span>CHIMPS</span> ₪ <br>CEO | Trend Setter<em>™</em> </figcaption>
+      </figure>   
+      <h1>We are a Creative Design Agency</h1>
+      <div class = "left-card">
+        <img class = "title-image" src="../images/MotoMeme2.jpeg" alt="bunny with yellow shades">
+        <h2 class = "card-title">Beauty</h2>
+        <p>We strive to create the most beautiful websites for all your needs.
+            Working closely with you to design and develop an amazing 
+            website for your business.</p>
+      </div>
+
+      <div class = "left-card">
+        <img class ="title-image" src="../images/JustNeedtheFingerandGold.jpeg" alt="monkey removing rings from human finger">
+        <h2 class = "card-title">Construction</h2>
+        <p>Built by our team of professional developers, we ensure the most rigourous and modern websites.
+            Built from scratch using HTML and CSS. Only the best for you.</p>
+      </div>
+
+    </div>
+
+    <footer>
+      <p>Create. Develop. Design.</p>
+    </footer>
+</body>
+</html>
