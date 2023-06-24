@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>⁜ CSS Positioning Exercise</title>
+    <style>
+        /*type your style code here*/
+        /*
+        blue-box div: create box 300px height x 500px width w/ position top and left 200 px from browser top left corner
+        blue-box div: give this div a background color of blue
+        create a circle w/in blue-box positioned 250px from the left side and 150 px from the top 
+        --create circle using background-color: red; -- width x height: 200px --border-radius: 50%;
+*/
+        .blue-box {
+        background-color: blue;
+        height: 300px;  
+        width: 500px;
+        position: relative;
+        top: 200px;
+        left: 200px;
+    }
+
+        .red-circle {
+            background-color: red;
+            height: 200px;
+            width: 200px; 
+            border-radius: 50%;
+            position: absolute;
+            top: 150px;
+            left: 250px;
+    }
+
+
+
+    </style>
+</head>
+<body>
+  <div class = "blue-box">
+    <div class= "red-circle"></div>
+  </div>
+</body>
+</html>

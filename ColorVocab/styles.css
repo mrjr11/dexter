@@ -1,0 +1,23 @@
+body {background-color: blanchedalmond;} 
+
+#red {color: red;}
+#blue {color: blue;}
+#orange {color: orange;}
+#yellow {color: gold;}
+#green {color: green;}
+#purple {color: purple;}
+
+
+.color-title {font-weight: normal;}
+
+h1 {font-family: harrington, monospace, times;
+    font-size: 55px;
+    color: rosybrown; 
+}
+
+h2 { font-family: harrington, monospace, arial;
+}
+
+img { width: 200px; 
+      height: 200px
+}
